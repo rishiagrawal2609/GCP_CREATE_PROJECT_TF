@@ -12,7 +12,6 @@ resource "google_project" "main" {
   name = "my-proj"
   project_id = "my-proj-id"
   org_id = "809866736880"
-  folder_id = ""
-  billing_account = ""
-  labels {}
+  folder_id = null
+  billing_account = null
 }
