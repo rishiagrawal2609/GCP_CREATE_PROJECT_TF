@@ -9,9 +9,9 @@ terraform {
 
 
 resource "google_project" "main" {
-  name = "my-proj"
-  project_id = "my-proj-id"
-  org_id = "809866736880"
-  folder_id = null
-  billing_account = null
+  name = var.proj-name
+  project_id = var.project_id
+  org_id = var.org_id
+  folder_id = var.folder_id
+  billing_account = var.billing_account
 }
